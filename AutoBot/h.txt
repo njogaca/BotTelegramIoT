@@ -1,0 +1,1000 @@
+  198  sudo setcap 'cap_net_raw,cap_net_admin+eip' $(readlink -f $(which python3))
+  199  sudo pip install beacontools]
+  200  sudo pip install beacontools[scan]
+  201  sudo pip3 install beacontools[scan]
+  202  ls
+  203  mkdir Johan
+  204  cd Johan/
+  205  ls
+  206  mkdir beacontoolsTest
+  207  cd beacontoolsTest/
+  208  sudo nano page.txt
+  209  ls
+  210  sudo nano Parser.py
+  211  sudo nano BeaconScan.py
+  212  sudo nano BeaconEddyStone.py
+  213  python3 Parser.py 
+  214  sudo nano Parser.py 
+  215  python3 BeaconScan.py 
+  216  python3 BeaconEddyStone.py 
+  217  cd.
+  218  cd ..
+  219  git clone https://github.com/ukBaz/ble_beacon
+  220  ls
+  221  cd ble_beacon/
+  222  ls
+  223  nano README.md 
+  224  sudo apt-get install bluetooth bluez-utils blueman bluez-hcidump
+  225  sudo apt-get install bluez
+  226  sudo apt-get install bluetooth bluez-utils blueman bluez-hcidump
+  227  sudo apt-get install bluez python-gobject python-dbus
+  228  sudo apt autoremove 
+  229  sudo apt-get install bluez-utils
+  230  sudo apt-get install python-bluez
+  231  sudo apt-get install gawk
+  232  python3 hci_dump_read.py 
+  233  python hci_dump_read.py 
+  234  ./hcidump.sh 
+  235  ls
+  236  cd ..
+  237  git clone https://github.com/tholum/bluez
+  238  ls
+  239  cd bluez/
+  240  ks
+  241  ls
+  242  nano README.md 
+  243  python blue.py 
+  244  sudo python blue.py 
+  245  sudo python3 blue.py 
+  246  sudo nano blue.py 
+  247  ls
+  248  sudo nano blue
+  249  sudo nano bluetooth 
+  250  cd ..
+  251  git clone https://github.com/ashokgelal/iBeacon-Scanner
+  252  ls
+  253  cd iBeacon-Scanner/
+  254  ls
+  255  python scanner.py 
+  256  ls
+  257  python blescan.py
+  258  python3 blescan.py
+  259  hcitool scan 
+  260  cd ..
+  261  ls
+  262  git clone https://github.com/citruz/beacontools
+  263  cd beacontools
+  264  ls
+  265  nano README.rst 
+  266  nano setup.
+  267  nano setup.py 
+  268  sudo python3 setup.py 
+  269  sudo python3 setup.py install
+  270  ls
+  271  cd examples/
+  272  ls
+  273  python3 scanner_ibeacon_example.py 
+  274  cd ..
+  275  ñs
+  276  ls
+  277  cd beacontools
+  278  ls
+  279  python3 scanner.py 
+  280  hcitool scan 
+  281  hcitool rssi F4:CB:52:AE:9A:8E
+  282  sudo rfcomm connect 0 F4:CB:52:AE:9A:8E 10 >/dev/null &
+  283  hcitool rssi F4:CB:52:AE:9A:8E
+  284  sudo rfcomm connect 0 F4:CB:52:AE:9A:8E 10 >/dev/null &
+  285  hcitool rssi F4:CB:52:AE:9A:8E
+  286  sudo hcitool rssi F4:CB:52:AE:9A:8E
+  287  sudo rfcomm connect 0 F4:CB:52:AE:9A:8E 10 >/dev/null &
+  288  sudo shutdown now
+  289  raspistill -t 3000
+  290  sudo raspi-config 
+  291  raspistill -t 3000
+  292  sudo pip3 install openv-python
+  293  sudo pip3 install opencv-python
+  294  ls
+  295  git
+  296  mkdir GitHub
+  297  cd GitHub/
+  298  git init
+  299  ls
+  300  nano .git/
+  301  git user
+  302  git --help
+  303  git help tutorial
+  304  clear
+  305  ls
+  306  cd Desktop/
+  307  ls
+  308  git config --global user.name "Jgarciac3"
+  309  git config --global user.mail jgarciac3@ucentral.edu.co
+  310  git init
+  311  git add .
+  312  git commit
+  313  git config --global user.email jgarciac3@ucentral.edu.co
+  314  git config --global user.name "Jgarciac3"
+  315  git commit
+  316  nano file1.txt
+  317  add .
+  318  git add .
+  319  git commit
+  320  git status
+  321  git commit -a
+  322  cd ..
+  323  rm -r GitHub/
+  324  sudo rm -r GitHub/
+  325  cd Desktop/
+  326  ls
+  327  cd Smart-Security-Camera-master/
+  328  ls
+  329  python3 main.py 
+  330  python3
+  331  sudo pip install opencv-python
+  332  sudo pip3 install opencv-python
+  333  sudo pip install --upgrade numpy
+  334  clear
+  335  clear
+  336  cd ..
+  337  history > historial.txt
+  338  nano historial.txt 
+  339  ls
+  340  sudo pip3 install //upgrade numpy
+  341  sudo pip3 install --upgrade numpy
+  342  sudo pip3 install opencv-python
+  343  sudo pip3 install --upgrade opencv-python
+  344  python3
+  345  sudo apt update
+  346  sudo apt upgrade
+  347  sudo pip3 install --upgrade opencv-python
+  348  python3 --vcersion
+  349  python3 --version
+  350  sudo pip3 install --upgrade opencv-python=(3.5.3)
+  351  sudo pip3 install --upgrade opencv-python=3.5.3
+  352  sudo reboot /h now
+  353  sudo reboot -h now
+  354  sudo python3
+  355  sudo apt-get install build-essential cmake pkg-config
+  356  sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+  357  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+  358  sudo apt-get install libxvidcore-dev libx264-dev
+  359  sudo apt-get install libgtk2.0-dev
+  360  sudo apt-get install libatlas-base-dev gfortran
+  361  sudo apt-get install python2.7-dev python3-dev
+  362  wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.1.0.zip
+  363  unzip opencv
+  364  ls
+  365  cd opencv-3.1.0/
+  366  ls
+  367  wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.1.0.zip
+  368  unzip opencv_contrib.zip 
+  369  ls
+  370  rm opencv_contrib-3.1.0/
+  371  rm -r opencv_contrib-3.1.0/
+  372  rm opencv_contrib.zip 
+  373  cd ..
+  374  wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.1.0.zip
+  375  unzip opencv_contrib.zip 
+  376  cd opencv-3.1.0/
+  377  wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.1.0.zip
+  378  unzip opencv_contrib.zip 
+  379  sudo pip3 install virtualenv virtualenvwrapper
+  380  export WORKON_HOME=$HOME/.virtualenvs
+  381  source /usr/local/bin/virtualenvwrapper.sh
+  382  echo -e "\n# virtualenv and virtualenvwrapper" >> ~/.profile
+  383  echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.profile
+  384  echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
+  385  source ~/.profile
+  386  mkvirtualenv cv -p python3
+  387  workon cv
+  388  pip3 install numpy
+  389  workon cv
+  390  ls
+  391  mkdir build
+  392  cd build/
+  393  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.1.0/modules -D BUILD_EXAMPLES=ON ..
+  394  make -j4
+  395  make clean
+  396  make
+  397  sudo make install
+  398  sudo ldconfig
+  399  sudo ls -l /usr/local/lib/python3.5/site-package/
+  400  source ~/.profile 
+  401  workon cv
+  402  python
+  403  exit
+  404  cd Desktop/
+  405  ls
+  406  cd Smart-Security-Camera-master/
+  407  ls
+  408  sudo python3 main.py 
+  409  python
+  410  sudo pip install opencv-python
+  411  sudo pip install opencv-python=2.7.13
+  412  sudo pip install opencv-python=2
+  413  pip3 install opencv-python
+  414  python3
+  415  ifconfig wlan0
+  416  sudo shutdown now
+  417  cd Desktop/
+  418  ls
+  419  cd Smart-Security-Camera-master/
+  420  ls
+  421  python3 main.py 
+  422  python3
+  423  pip3 uninstall opencv-contrib-python
+  424  python3 -m venv /path/to/new/virtual/environment
+  425  cd ..
+  426  python3 -m venv /home/pi/to/new/virtual/environment
+  427  clear
+  428  pip3 install opencv-python
+  429  python3
+  430  workon cv
+  431  source ~/.profile 
+  432  raspistill -t 5000
+  433  clear
+  434  sudo pip3 uninstall opencv-python
+  435  clear
+  436  sudo pip3 install --upgrade numpy
+  437  sudo pip3 install opencv-python
+  438  sudo pip3 install opencv-contrib-python
+  439  sudo python3
+  440  sudo apt-get install libhdf5_serial
+  441  sudo pip3 install libhdf5_serial
+  442  nano
+  443  sudo apt upgrade python3
+  444  reset 
+  445  history 
+  446  nano bleScannerJ.py
+  447  sudo pip install opencv-python
+  448  sudo pip~ install opencv-python
+  449  sudo pip3 install opencv-python
+  450  ifconfig wlan0
+  451  ssh pi@172.71.15.251
+  452  blescan 
+  453  hciconfig up
+  454  sudo hciconfig hci0 up
+  455  blescan 
+  456  cd Desktop/
+  457  ñs
+  458  ls
+  459  cd Smart-Security-Camera-master/
+  460  ls
+  461  python main.py 
+  462  pip install opencv-python
+  463  pip install numpy
+  464  sudo pip install numpy
+  465  pip install numpy
+  466  sudo reboot -h now
+  467  sudo python
+  468  python
+  469  python3
+  470  sudo pip3 install telegram-send
+  471  pip3 install telegram-send
+  472  echo 'PATH="$HOME/.local/bin:$PATH"' >> ~/.profileecho 'PATH="$HOME/.local/bin:$PATH"' >> ~/.profile
+  473  Collecting appdirs (from telegram-send)
+  474  echo 'PATH="$HOME/.local/bin:$PATH"' >> ~/.profile
+  475  telegram-send 
+  476  telegram-send --configure
+  477  RaspberryPi_I
+  478  telegram-send "hello, world"
+  479  ls
+  480  cd Pictures/
+  481  ls
+  482  telegram-send --image download.jpg --caption "Imagen de Prueba"
+  483  ls
+  484  cd ..
+  485  ls
+  486  cd Desktop/
+  487  ls
+  488  cd Smart-Security-Camera-master/
+  489  ls
+  490  telegram-send --file main.py 
+  491  ls
+  492  nano timbre2.py 
+  493  nano timbre.py 
+  494  cd ..
+  495  mkdir TelegramCamera
+  496  cd TelegramCamera/
+  497  nano main.py
+  498  python3 main.py 
+  499  cd Desktop/
+  500  cd TelegramCamera/
+  501  ls
+  502  nano main.py
+  503  ls
+  504  cd ..
+  505  cd Smart-Security-Camera-master/
+  506  ls
+  507  nano timbre.py 
+  508  cd ..
+  509  cd TelegramCamera/
+  510  nano main.py
+  511  python3 main.py 
+  512  ls
+  513  raspistill -O foto.jpg
+  514  raspistill
+  515  raspistill -o foto.jpg
+  516  sudo raspistill -o foto.jpg
+  517  sudo raspi-config 
+  518  nano main.py 
+  519  sudo raspistill -o foto.jpg
+  520  sudo reboot -h now
+  521  cd Desktop/
+  522  ls
+  523  cd TelegramCamera/
+  524  ls
+  525  nano main.py 
+  526  python3 main.py 
+  527  nano main.py 
+  528  python3 main.py 
+  529  nano main.py 
+  530  python3 main.py 
+  531  nano main.py 
+  532  python3 main.py 
+  533  nano main.py 
+  534  python3 main.py 
+  535  raspistill -o foto.jpg
+  536  raspistill -vf -hf -o foto.jpg
+  537  raspistill -t 5000
+  538  raspistill -o foto.jpg
+  539  ls
+  540  rm foto.jpg 
+  541  ls
+  542  cd Desktop/
+  543  ls
+  544  cd TelegramCamera/
+  545  raspistill -o foto.jpg
+  546  nano main.py 
+  547  python3 main.py 
+  548  nano main.py 
+  549  python3 main.py 
+  550  sudo apt-get install -y gpac
+  551  raspivid -o video.h264 -t 10000
+  552  ls
+  553  MP4Box -add video.h264 video.mp4
+  554  ls
+  555  telegram-send --file video.mp4 
+  556  telegram-send "Hola Jefe"
+  557  telegram-send 'Hola Jefe'
+  558  ifconfig wlan0
+  559  cd Desktop/
+  560  ls
+  561  cd TelegramCamera/
+  562  ls
+  563  nano main.py 
+  564  mkdir AutoBot
+  565  cd AutoBot/
+  566  pip3 install python-telegrambot
+  567  pip3 install python-telegrambot --upgrade
+  568  pip3 install python-telegram-bot --upgrade
+  569  raspistill -o 5000
+  570  nano botRaspberryPiIot.py
+  571  clear
+  572  cd Desktop/TelegramCamera/AutoBot/
+  573  ls
+  574  cd ..
+  575  nano main.py 
+  576  cd AutoBot/
+  577  ls
+  578  telegram-send --file video.mp4 --timeout 40.0
+  579  cd ..
+  580  nano main.py 
+  581  clear
+  582  sudo apt-get install subversion libjpeg8-dev imagemagick libav-tools cmake
+  583  ls
+  584  rm video.h264 
+  585  rm video.mp4 
+  586  ls
+  587  rm foto.jpg 
+  588  ls
+  589  mkdir Streaming
+  590  cd Streaming/
+  591  git clone https://github.com/jacksonliam/mjpg-streamer.git
+  592  cd mjpg-streamer/
+  593  ls
+  594  make
+  595  nano README.md 
+  596  cd mjpg-streamer-experimental/
+  597  make
+  598  ls
+  599  ./mjpg_streamer -i "./input_raspicam.so -fps 5" -o "./output_http.so"
+  600  ./mjpg_streamer -i "./input_raspicam.so -fps 10 -hf -vf" -o "./output_http.so"
+  601  ./mjpg_streamer -i "./input_raspicam.so -fps 15 -hf -vf" -o "./output_http.so"
+  602  cd /lib/systemd/system
+  603  ls
+  604  sudo nano mjpg_streamer.service
+  605  sudo systemctl start mjpg_streamer.service
+  606  sudo systemctl status mjpg_streamer.service
+  607  sudo systemctl stop mjpg_streamer.service
+  608  sudo nano mjpg_streamer.service
+  609  sudo systemctl start mjpg_streamer.service
+  610  sudo systemctl stop mjpg_streamer.service
+  611  sudo nano mjpg_streamer.service
+  612  sudo systemctl start mjpg_streamer.service
+  613  sudo systemctl stop mjpg_streamer.service
+  614  ls
+  615  ls *.service
+  616  sudo nano bot_telegram.service
+  617  sudo systemctl start bot_telegram.service
+  618  sudo rem bot_telegram.service 
+  619  sudo rm bot_telegram.service 
+  620  sudo apt-get install miniupnpc
+  621  upnpc -l
+  622  upnpc -a 192.168.0.12 8080 54321 TCP
+  623  sudo systemctl start mjpg_streamer.service
+  624  sudo systemctl stop mjpg_streamer.service
+  625  upnpc -d 54321 TCP
+  626  python3
+  627  curl ident.me
+  628  python3
+  629  cd ~
+  630  ls
+  631  nano ip.py
+  632  whoami
+  633  nano ip.py 
+  634  python3 ip.py 
+  635  nano ip.py 
+  636  python3 ip.py 
+  637  nano ip.py 
+  638  python3 ip.py 
+  639  nano ip.py 
+  640  python3 ip.py 
+  641  pip3 install subprocess
+  642  pip3 install --upgrade subprocess
+  643  pip3 install --upgrade python-subprocess
+  644  nano ip.py 
+  645  python3 ip.py 
+  646  nano ip.py 
+  647  python3 ip.py 
+  648  nano ip.py 
+  649  python3 ip.py 
+  650  python3
+  651  nano ip.py 
+  652  python3 ip.py 
+  653  sudo python3 ip.py 
+  654  nano ip.py 
+  655  sudo python3 ip.py 
+  656  nano ip.py 
+  657  sudo python3 ip.py 
+  658  nano ip.py 
+  659  sudo python3 ip.py 
+  660  nano ip.py 
+  661  sudo python3 ip.py 
+  662  nano ip.py 
+  663  python3 ip.py 
+  664  nano ip.py 
+  665  python3 ip.py 
+  666  nano ip.py 
+  667  python3 ip.py 
+  668  nano ip.py 
+  669  python3 ip.py 
+  670  nano ip.py 
+  671  python3 ip.py 
+  672  nano ip.py 
+  673  python3 ip.py 
+  674  nano config.txt
+  675  nano ip.py 
+  676  python3 ip.py 
+  677  nano ip.py 
+  678  python3 ip.py 
+  679  nano ip.py 
+  680  python3 ip.py 
+  681  nano ip.py 
+  682  python3 ip.py 
+  683  sudo systemctl start mjpg_streamer.service
+  684  systemctl stop mjpg_streamer.service
+  685  sudo systemctl stop mjpg_streamer.service
+  686  pip3 install telepot
+  687  cd Desktop/
+  688  ls
+  689  cd TelegramCamera/
+  690  ls
+  691  cd Streaming/
+  692  ls
+  693  wget https://github.com/nickoala/ipcam/archive/master.zip
+  694  ls
+  695  rm master.zip 
+  696  ls
+  697  https://github.com/nickoala/ipcam.git
+  698  wget https://github.com/nickoala/ipcam.git
+  699  ls
+  700  rm ipcam.git 
+  701  git clone https://github.com/nickoala/ipcam.git
+  702  cd ipcam/
+  703  ls
+  704  cd scripts/
+  705  ls
+  706  chmod +x *
+  707  ls
+  708  sudo cp * /usr/local/bin
+  709  ls
+  710  cd ..
+  711  ls
+  712  python3 ipcam.py 502350411:AAF6jhgJ1PoQO40MRaTI5Q1RfwV9QfCcSf4
+  713  upnpc -l
+  714  nano ipcam.py 
+  715  python3 ipcam.py
+  716  nano ipcam.py 
+  717  python3 ipcam.py
+  718  nano ipcam.py 
+  719  python3 ipcam.py
+  720  nano ipcam.py 
+  721  ls
+  722  cd scripts/
+  723  ls
+  724  cd ..
+  725  ls
+  726  clear
+  727  cd Desktop/
+  728  ls
+  729  cd TelegramCamera/
+  730  ls
+  731  cd Streaming/
+  732  ls
+  733  cd ipcam/
+  734  nano ipcam.py 
+  735  upnpc -l
+  736  nano ipcam.py 
+  737  python3 ipcam.py 
+  738  upnpc -l
+  739  nano ipcam.py 
+  740  upnpc -l
+  741  clear
+  742  neofetch
+  743  clear
+  744  cd Desktop/
+  745  ls
+  746  cd TelegramCamera/
+  747  ls
+  748  cd AutoBot/
+  749  ls
+  750  rm 5000 
+  751  ls
+  752  nano botRaspberryPiIot.py 
+  753  python3 botRaspberryPiIot.py 
+  754  nano botRaspberryPiIot.py 
+  755  python3 botRaspberryPiIot.py 
+  756  nano botRaspberryPiIot.py 
+  757  python3 botRaspberryPiIot.py 
+  758  nano botRaspberryPiIot.py 
+  759  python3 botRaspberryPiIot.py 
+  760  nano botRaspberryPiIot.py 
+  761  python3 botRaspberryPiIot.py 
+  762  nano botRaspberryPiIot.py 
+  763  python3 botRaspberryPiIot.py 
+  764  nano botRaspberryPiIot.py 
+  765  python3 botRaspberryPiIot.py 
+  766  nano botRaspberryPiIot.py 
+  767  python3 botRaspberryPiIot.py 
+  768  clear
+  769  ls
+  770  nano botRaspberryPiIot.py 
+  771  python3 botRaspberryPiIot.py 
+  772  nano botRaspberryPiIot.py 
+  773  python3 botRaspberryPiIot.py 
+  774  nano botRaspberryPiIot.py 
+  775  python3 botRaspberryPiIot.py 
+  776  clear
+  777  python3 botRaspberryPiIot.py 
+  778  nano botRaspberryPiIot.py 
+  779  python3 botRaspberryPiIot.py 
+  780  nano botRaspberryPiIot.py 
+  781  python3 botRaspberryPiIot.py 
+  782  ls
+  783  rm video.h264 
+  784  rm video.mp4 
+  785  ls
+  786  pip3 install python-telegram-bot --upgrade
+  787  python3 botRaspberryPiIot.py 
+  788  nano botRaspberryPiIot.py 
+  789  python3 botRaspberryPiIot.py 
+  790  nano botRaspberryPiIot.py 
+  791  python3 botRaspberryPiIot.py 
+  792  cd ..
+  793  cd Streaming/
+  794  ls
+  795  cd mjpg-streamer/
+  796  cd mjpg-streamer-experimental/
+  797  ls
+  798  cd ..
+  799  cd A
+  800  cd ..
+  801  cd AutoBot/
+  802  ls
+  803  nano botRaspberryPiIot.py 
+  804  python3 botRaspberryPiIot.py 
+  805  nano botRaspberryPiIot.py 
+  806  python3 botRaspberryPiIot.py 
+  807  nano botRaspberryPiIot.py 
+  808  python3 botRaspberryPiIot.py 
+  809  nano botRaspberryPiIot.py 
+  810  cd ..
+  811  ls
+  812  cd Streaming/
+  813  cd ipcam/
+  814  ls
+  815  nano ipcam.py 
+  816  cd ..
+  817  cd AutoBot/
+  818  nano botRaspberryPiIot.py 
+  819  python3 botRaspberryPiIot.py 
+  820  nano botRaspberryPiIot.py 
+  821  cd ..
+  822  cd Streaming/ipcam/
+  823  nano ipcam.py 
+  824  cd ..
+  825  cd AutoBot/
+  826  ls
+  827  nano botRaspberryPiIot.py 
+  828  python3 botRaspberryPiIot.py 
+  829  nano botRaspberryPiIot.py 
+  830  python3 botRaspberryPiIot.py 
+  831  nano botRaspberryPiIot.py 
+  832  python3 botRaspberryPiIot.py 
+  833  upnpc -l
+  834  upnpc -d 54321
+  835  upnpc -d 54321 TCP
+  836  nano botRaspberryPiIot.py 
+  837  python3 botRaspberryPiIot.py 
+  838  upnpc -d 54321 TCP
+  839  nano botRaspberryPiIot.py 
+  840  python3 botRaspberryPiIot.py 
+  841  upnpc -d 54321 TCP
+  842  nano botRaspberryPiIot.py 
+  843  python3 botRaspberryPiIot.py 
+  844  upnpc -d 54321 TCP
+  845  nano botRaspberryPiIot.py 
+  846  python3 botRaspberryPiIot.py 
+  847  upnpc -d 54321 TCP
+  848  nano botRaspberryPiIot.py 
+  849  python3 botRaspberryPiIot.py 
+  850  upnpc -l
+  851  nano botRaspberryPiIot.py 
+  852  python3 botRaspberryPiIot.py 
+  853  nano botRaspberryPiIot.py 
+  854  upnpc -l
+  855  python3 botRaspberryPiIot.py 
+  856  sudo shutdown now
+  857  cd Desktop/
+  858  cd TelegramCamera/
+  859  ls
+  860  cd AutoBot/
+  861  ls
+  862  nano botRaspberryPiIot.py 
+  863  python3 botRaspberryPiIot.py 
+  864  curl ident.me
+  865  upnpc -l
+  866  history
+  867  upnpc -l
+  868  cd ..
+  869  history > historial.txt
+  870  nano historial.txt 
+  871  raspistill -t 1000
+  872  cd Desktop/
+  873  cd TelegramCamera/AutoBot/
+  874  python3 botRaspberryPiIot.py 
+  875  nano botRaspberryPiIot.py 
+  876  python3 botRaspberryPiIot.py 
+  877  pip3 install --update telegram-send
+  878  pip3 install --upgrade telegram-send
+  879  pip3 install python-telegrambot --upgrade
+  880  pip3 install python-telegram-bot --upgrade
+  881  telegram-send "hello, world"
+  882  python3 botRaspberryPiIot.py 
+  883  nano botRaspberryPiIot.py 
+  884  python3 botRaspberryPiIot.py 
+  885  sudo raspi-config 
+  886  sudo reboot -h now
+  887  ifconfig wlan0
+  888  upnpc -a 172.71.14.6 8080 54321 TCP
+  889  sudo systemctl enable mjpg_streamer.service 
+  890  curl ident.me
+  891  whoami
+  892  upnpc -a 190.60.115.135 8080 54321 TCP
+  893  cd ~
+  894  cd /usr/local/bin
+  895  ls
+  896  nano ipaddr 
+  897  ./ipaddr 
+  898  sudo systemctl stop  mjpg_streamer.service 
+  899  sudo systemctl start  mjpg_streamer.service 
+  900  sudo systemctl stop  mjpg_streamer.service 
+  901  upnpc -l
+  902  history
+  903  ls
+  904  cd ..
+  905  ls
+  906  cd Streaming/
+  907  ls
+  908  cd mjpg-streamer/
+  909  ls
+  910  nano README.md 
+  911  ls
+  912  cd mjpg-streamer-experimental/
+  913  ls
+  914  nano mjpg_streamer
+  915  nano README.md 
+  916  cd plugins/
+  917  ls
+  918  cd ..
+  919  cd scripts/
+  920  ls
+  921  cd ..
+  922  ls
+  923  cd www/
+  924  ls
+  925  cd ..
+  926  ls
+  927  cd ..
+  928  ls
+  929  cd ..
+  930  ls
+  931  cd Streaming/
+  932  ls
+  933  cd ipcam/
+  934  ls
+  935  nano README.md 
+  936  telnet
+  937  ping
+  938  raspistill -t 1000
+  939  cd Desktop/TelegramCamera/AutoBot/
+  940  python3 botRaspberryPiIot.py 
+  941  nano botRaspberryPiIot.py 
+  942  python3 botRaspberryPiIot.py 
+  943  sudo raspi-config 
+  944  sudo reboot -h now
+  945  cd Desktop/TelegramCamera/AutoBot/
+  946  nano botRaspberryPiIot.py 
+  947  python3 botRaspberryPiIot.py 
+  948  pip3 install python-telegram-bot --upgrade
+  949  sudo pip3 install python-telegram-bot --upgrade
+  950  pip3 install --upgrade telegram-send
+  951  sudo pip3 install --upgrade telegram-send
+  952  sudo raspi-config 
+  953  sudo reboot -h now
+  954  sudo systemctl start mjpg_streamer.service 
+  955  sudo systemctl status mjpg_streamer.service 
+  956  sudo systemctl stop mjpg_streamer.service 
+  957  sudo systemctl start mjpg_streamer.service 
+  958  cd Desktop/TelegramCamera/AutoBot/
+  959  nano botRaspberryPiIot.py 
+  960  sudo systemctl stop mjpg_streamer.service 
+  961  sudo systemctl start mjpg_streamer.service 
+  962  sudo systemctl stop mjpg_streamer.service 
+  963  sudo systemctl start mjpg_streamer.service 
+  964  sudo systemctl stop mjpg_streamer.service 
+  965  task
+  966  pkill
+  967  pkill --help
+  968  top
+  969  chromium-browser www.google.com
+  970  sudo pkill chromium-browse
+  971  nano botRaspberryPiIot.py 
+  972  history
+  973  nano botRaspberryPiIot.py 
+  974  python3 botRaspberryPiIot.py 
+  975  cd ~
+  976  history > historial.txt
+  977  nano historial.txt 
+  978  mmal
+  979  sudo apt-get update
+  980  sudo apt-get upgrade
+  981  sudo systemctl stop mjpg_streamer.service 
+  982  cd Desktop/TelegramCamera/AutoBot/
+  983  python3 botRaspberryPiIot.py 
+  984  raspistill -t 1000
+  985  raspistill -t 5000
+  986  sudo systemctl start mjpg_streamer.service 
+  987  ifconfig wlan0
+  988  raspistill -t 5000
+  989  sudo systemctl stop mjpg_streamer.service 
+  990  history
+  991  cd /lib/systemd/system
+  992  ls
+  993  nano mjpg_streamer.service 
+  994  cd ..
+  995  cd /usr/local/bin/
+  996  ls
+  997  nano ipaddr 
+  998  cd ~
+  999  nano telnet-py
+ 1000  nano telnet.py
+ 1001  python
+ 1002  nano telnet.py 
+ 1003  python telnet.py 
+ 1004  nano telnet.py 
+ 1005  python telnet.py 
+ 1006  nano telnet.py 
+ 1007  python telnet.py 
+ 1008  nano telnet.py 
+ 1009  python telnet.py 
+ 1010  nano telnet.py 
+ 1011  cd Desktop/Smart-Security-Camera-master/
+ 1012  ls
+ 1013  nano timbre2.py 
+ 1014  nano timbre.py 
+ 1015  python timbre.py 
+ 1016  nano timbre.py 
+ 1017  python timbre.py 
+ 1018  clear
+ 1019  python timbre.py 
+ 1020  nano timbre.py 
+ 1021  python timbre.py 
+ 1022  clear
+ 1023  python3 timbre.py 
+ 1024  nano timbre.py 
+ 1025  ls
+ 1026  git init
+ 1027  git add *
+ 1028  git commit "first commit"
+ 1029  git commit -m "first commit"
+ 1030  git remote add origin https://github.com/DedSecZero/SmartCameraIoT_Timbre.git
+ 1031  git push -u origin master
+ 1032  cd Desktop/
+ 1033  cd TelegramCamera/AutoBot/ç
+ 1034  cd TelegramCamera/AutoBot
+ 1035  ls
+ 1036  nano botRaspberryPiIot.py 
+ 1037  ls
+ 1038  nanonanç
+ 1039  nano botRaspberryPiIot
+ 1040  nano botRaspberryPiIot.py 
+ 1041  cd ..
+ 1042  cd..
+ 1043  cd ..
+ 1044  cd Smart-Security-Camera-master/
+ 1045  nano timbre.py 
+ 1046  python timbre.py 
+ 1047  nano timbre.py 
+ 1048  python timbre.py 
+ 1049  cd..
+ 1050  cd  
+ 1051  cd Desktop/TelegramCamera/AutoBot/n
+ 1052  nano botRaspberryPiIot.py 
+ 1053  python3 botRaspberryPiIot.py 
+ 1054  nano botRaspberryPiIot.py 
+ 1055  python3 botRaspberryPiIot.py 
+ 1056  nano botRaspberryPiIot.py 
+ 1057  python3 botRaspberryPiIot.py 
+ 1058  exitç
+ 1059  exit
+ 1060  ifconfig wlan0
+ 1061  raspistill -t 5000
+ 1062  sudo systemctl stop mjpg_streamer.service 
+ 1063  raspistill -t 5000
+ 1064  cd Desktop/Smart-Security-Camera-master/
+ 1065  ls
+ 1066  nano timbre.py 
+ 1067  python3 timbre.py 
+ 1068  nano timbre.py 
+ 1069  cd ..
+ 1070  cd TelegramCamera
+ 1071  cd AutoBot/
+ 1072  nano botRaspberryPiIot.py 
+ 1073  python3 botRaspberryPiIot.py 
+ 1074  nano botRaspberryPiIot.py 
+ 1075  python3 botRaspberryPiIot.py 
+ 1076  nano timbre.py
+ 1077  nano botRaspberryPiIot.py 
+ 1078  python3 botRaspberryPiIot.py 
+ 1079  nano botRaspberryPiIot.py 
+ 1080  nano timbre.py 
+ 1081  python3 botRaspberryPiIot.py 
+ 1082  nano timbre.py 
+ 1083  nano botRaspberryPiIot.py 
+ 1084  python3 botRaspberryPiIot.py 
+ 1085  nano botRaspberryPiIot.py 
+ 1086  python3 botRaspberryPiIot.py 
+ 1087  ls
+ 1088  nano botRaspberryPiIot.py 
+ 1089  nano timbre.py 
+ 1090  python3 timbre.py 
+ 1091  nano timbre.py 
+ 1092  python 3 botRaspberryPiIot.py 
+ 1093  python3 botRaspberryPiIot.py 
+ 1094  nano timbre.py 
+ 1095  python3 timbre.py 
+ 1096  nano timbre.py 
+ 1097  python3 botRaspberryPiIot.py 
+ 1098  python3 timbre.py 
+ 1099  nano timbre.py 
+ 1100  python3 timbre.py 
+ 1101  nano timbre.py 
+ 1102  python3 timbre.py 
+ 1103  nano timbre.py 
+ 1104  python3 timbre.py 
+ 1105  nano timbre.py 
+ 1106  python3 timbre.py 
+ 1107  nano timbre.py 
+ 1108  python3 timbre.p
+ 1109  sudo systemctl stop mjpg_streamer.service
+ 1110  sudo systemctl status mjpg_streamer.service
+ 1111  sudo systemctl disable mjpg_streamer.service
+ 1112  sudo reboot -h now
+ 1113  cd Desktop/TelegramCamera/AutoBot/
+ 1114  ls
+ 1115  python3 botRaspberryPiIot.py 
+ 1116  nano botRaspberryPiIot.py 
+ 1117  nano botRaspberryPiIot
+ 1118  nano botRaspberryPiIot.py 
+ 1119  python3 botRaspberryPiIot.py 
+ 1120  nano botRaspberryPiIot.py 
+ 1121  python3 botRaspberryPiIot.py 
+ 1122  nano botRaspberryPiIot.py 
+ 1123  python3 botRaspberryPiIot.py 
+ 1124  nano botRaspberryPiIot.py 
+ 1125  python3 botRaspberryPiIot.py 
+ 1126  nano botRaspberryPiIot.py 
+ 1127  python3 botRaspberryPiIot.py 
+ 1128  nano botRaspberryPiIot.py 
+ 1129  python3 botRaspberryPiIot.py 
+ 1130  python3 timbre.py 
+ 1131  cd Desktop/TelegramCamera/AutoBot/
+ 1132  nano timbre.py 
+ 1133  python3 timbre.py 
+ 1134  nano timbre.py 
+ 1135  python3 timbre.py 
+ 1136  cd Desktop/TelegramCamera/AutoBot/
+ 1137  python3 botRaspberryPiIot
+ 1138  python3 botRaspberryPiIot.py 
+ 1139  sudo systemctl stop mjpg_streamer.service 
+ 1140  sudo systemctl start mjpg_streamer.service 
+ 1141  ifconfig wlan0
+ 1142  upnpc -a 172.71.11.130 8080 54321 TCP
+ 1143  sudo systemctl stop mjpg_streamer.service 
+ 1144  ifconfig --help
+ 1145  sudo nano /etc/network/interfaces
+ 1146  sudo nano /etc/dhcpcd.conf 
+ 1147  sudo reboot -h now
+ 1148  curl ident.me
+ 1149  sudo systemctl start mjpg_streamer.service 
+ 1150  upnpc -a 172.71.10.23 8080 54321 TCP
+ 1151  ifconfig wlan0
+ 1152  upnpc -l
+ 1153  ifconfig wlan0
+ 1154  ifconfig all
+ 1155  ifconfig -all
+ 1156  ifconfig --help
+ 1157  ifconfig
+ 1158  nano /etc/dhcpcd.conf 
+ 1159  sudo nano /etc/network/interfaces
+ 1160  auto lo
+ 1161  sudo nano /etc/network/interfaces
+ 1162  nano /etc/dhcpcd.conf 
+ 1163  man /etc/dhcpcd.conf
+ 1164  nano /etc/dhcpcd.conf 
+ 1165  dhcpcd
+ 1166  sudo dhcpcd
+ 1167  sudo dhcpcd --help
+ 1168  sudo service disable dhcpcd5 
+ 1169  route -n
+ 1170  nestat -r -n
+ 1171  netstat -r -n
+ 1172  sudo reboot now
+ 1173  sudo systemctl start mjpg_streamer.service
+ 1174  python3
+ 1175  ifconfig wlan0
+ 1176  route
+ 1177  nano /etc/resolv.conf
+ 1178  wget http://172.71.10.23:8080/?action=snapshot
+ 1179  ls
+ 1180  history
+ 1181  nano h.txt 
+ 1182  sudo systemctl stop mjpg_streamer.service 
+ 1183  ifconfig wlan0
+ 1184  ping google.com
+ 1185  nano /etc/dhcpcd.conf 
+ 1186  sudo reboot -h now
+ 1187  clear
+ 1188  cd Desktop/TelegramCamera/AutoBot/
+ 1189  la
+ 1190  ls
+ 1191  rm foto.jpg~ 
+ 1192  ls
+ 1193  cd images/
+ 1194  ls
+ 1195  cd ..
+ 1196  sudo python3 botRaspberryPiIot.py 
+ 1197  history > h.txt

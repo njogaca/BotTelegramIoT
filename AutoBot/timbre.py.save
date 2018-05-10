@@ -1,0 +1,42 @@
+import RPi.GPIO as GPIO
+import time,os
+import subprocess
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(23,GPIO.IN,pull_up_down=GPIO.PUD_UP) #BOTON
+pf = '/usr/local/bin/pf'
+ipaddr = '/usr/local/bin/ipaddr'
+EXTERNAL_PORT = 54321
+INTERNAL_PORT = 8080
+try:
+   while True:
+      boton = GPIO.input(23)
+      if boton == False:
+         print("Timbre Activado")
+         os.system("telegram-send 'Hey ... estan timbrando ...'")
+         print("1")
+         subprocess.call(['sudo','systemctl','start','mjpg_streamer.service'])
+         print("2")
+         subprocess.call([pf,str(EXTERNAL_PORT),str(INTERNAL_PORT)])
+         print("3")
+         out = subprocess.check_output([ipaddr])
+         print("4")
+         ip = dict([line.split('=') for line in out.decode('ascii').strip().split('\n')])
+         print("5  ",ip)
+         #reply = 'http://%s:%d/?action=stream' % (ip['External'],EXTERNAL_PORT)
+         reply = 'http://%s:%d/?action=stream' % (ip['Internal'],INTERNAL_PORT)
+         print("6  ",reply)
+         os.system('telegram-send '+ reply)
+         print("7")
+         if ip['External'] != ip['Public']:
+            reply += '\n No es posible realizar streaming de manera Externa'
+
+         
+os.system('telegram-send '+ reply)
+         time.sleep(100)
+         os.system("telegram-send 'Comenzando a finalizar Streaming'")
+         subprocess.call([pf,'delete',str(EXTERNAL_PORT)])
+         subprocess.call(['sudo','systemctl','stop','mjpg_streamer.service'])
+         os.system("telegram-send 'Streaming Finalizado'")
+         pass
+except:
+   GPIO.cleanup()
