@@ -1,0 +1,18 @@
+import sys
+import time
+import os
+
+def generarBackupFoto():
+   nombreArchivofoto = time.strftime("%Y%m%d-%H%M%S")
+   nombreArchivofoto = "Foto_"+nombreArchivofoto + ".png"
+   comandoFoto = "raspistill -o /home/pi/Backup/"+nombreArchivofoto
+   os.system(comandoFoto);
+
+def generarBackupVideo():
+   nombreArchivoVideo = time.strftime("%Y%m%d-%H%M%S")
+   nombreArchivoVideo = "Video_"+nombreArchivoVideo+".mp4"
+   comandoVideo = "raspivid -o /home/pi/Backup/video.h264 -t 5000"
+   comandoTransformVideo = "MP4Box -add /home/pi/Backup/video.h264 /home/pi/Backup/"+raspivid -o video.h264 -t 5000
+
+
+

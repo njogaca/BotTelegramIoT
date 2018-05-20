@@ -6,7 +6,7 @@ import os
 import sys
 import time
 import subprocess
-import telepot
+import telepot,threading
 from telepot.loop import MessageLoop
 
 pf= '/usr/local/bin/pf'
@@ -50,22 +50,25 @@ def obtenerVideo(bot, update, pass_chat_data=True):
 def iniciarStreaming(bot,update,pass_chat_data=True):
    global pf,ipaddr
    
-   subprocess.call(['sudo', 'systemctl', 'start' , 'mjpg_streamer.service'])
+   #subprocess.call(['sudo', 'systemctl', 'start' , 'mjpg_streamer.service'])
+   threading.Thread(target=StartMjpgService).start()
    update.message.chat_id
-   subprocess.call([pf,str(EXTERNAL_PORT),str(INTERNAL_PORT)])
-   out = subprocess.check_output([ipaddr])
-   ip = dict([line.split('=') for line in out.decode('ascii').strip().split('\n')])
-   reply = 'http://%s:%d/?action=stream' % (ip['External'], EXTERNAL_PORT)
-   if ip['External'] != ip['Public']:
-      reply += '\nNo es posible realizar streaming'
+   #subprocess.call([pf,str(EXTERNAL_PORT),str(INTERNAL_PORT)])
+   #out = subprocess.check_output([ipaddr])
+   #ip = dict([line.split('=') for line in out.decode('ascii').strip().split('\n')])
+   #reply = 'http://%s:%d/?action=stream' % (ip['External'], EXTERNAL_PORT)
+   reply = 'http://192.168.43.29:8080/?action=stream'
+   #if ip['External'] != ip['Public']:
+   #   reply += '\nNo es posible realizar streaming'
 
    bot.sendMessage(chat_id=update.message.chat_id, text=reply)
 #Definicion de funcion para finalizar streaming
 def finalizarStreaming(bot,update,pass_chat_data=True):
    global pf,ipaddr
    update.message.chat_id
-   subprocess.call([pf, 'delete', str(EXTERNAL_PORT)])
-   subprocess.call(['sudo', 'systemctl', 'stop', 'mjpg_streamer.service'])
+   #subprocess.call([pf, 'delete', str(EXTERNAL_PORT)])
+   #subprocess.call(['sudo', 'systemctl', 'stop', 'mjpg_streamer.service'])
+   StopMjpgService()
    bot.sendMessage(chat_id=update.message.chat_id,text='Streaming Finalizado')
 #Listener de conversacion
 def listener(bot,update,pass_chat_data=True):
@@ -82,6 +85,12 @@ def listener(bot,update,pass_chat_data=True):
       bot.sendMessage(chat_id=update.message.chat_id,text='Eres el mejor')
    else:
       bot.sendMessage(chat_id=update.message.chat_id,text='lo siento pero no tengo nada que responder ante eso :´( ')
+#Inicion y Fin de servicios
+def StartMjpgService():
+   os.system('/home/pi/Desktop/BotTelegramIoT/Streaming/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "/home/pi/Desktop/BotTelegramIoT/Streaming/mjpg-streamer/mjpg-streamer-experimental/input_raspicam.so -fps 60 -quality 10 -x 400 -y 300" -o "/home/pi/Desktop/BotTelegramIoT/Streaming/mjpg-streamer/mjpg-streamer-experimental/output_http.so -c SmartDoor:IoT2018"')
+def StopMjpgService():
+   os.system("killall mjpg_streamer")
+
 #------------------------------------------------Fin de Definiciones -----------------------------------------------
 close_handler = CommandHandler('close',close)
 start_handler = CommandHandler('start',start)
