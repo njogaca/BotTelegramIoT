@@ -15,7 +15,7 @@ EXTERNAL_PORT = 54321
 INTERNAL_PORT = 8080 #Puerto default del servicio mjpg_streamer
 
 #Indicar el Id del Bot sobre el cual vamos a trabajar
-mi_bot = telegram.Bot(token='502350411:AAF6jhgJ1PoQO40MRaTI5Q1RfwV9QfCcSf4')
+mi_bot = telegram.Bot(token='###')
 #Actualizar con regularidad el ID del bot
 mi_bot_updater = Updater(mi_bot.token)
 #Definicion de funcion Start
